@@ -13,7 +13,7 @@ Product.belongsTo(Category, {
 
 // Each Category can have many Products
 Category.hasMany(Product, {
-  foreignKey: 'category_id', // Use the same foreign key 'category_id' in the Product model
+  foreignKey: 'category_id', // Use the same foreign key 'category_id' 
 });
 
 // Each Product can belong to many Tags through the ProductTag model
@@ -34,3 +34,5 @@ module.exports = {
   Tag,
   ProductTag,
 };
+
+// Associations are used to define relationship between models.

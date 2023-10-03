@@ -55,3 +55,7 @@ Product.init(
 
 // Export the Product model for use in other parts of the application
 module.exports = Product;
+
+
+// 'init' method - a method used to initialize a model class (in this case Product model class)
+// each column is defined by its data type , constraints and validations

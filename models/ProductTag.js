@@ -8,7 +8,7 @@ const sequelize = require('../config/connection');
 class ProductTag extends Model {}
 
 // Set up fields and rules for the ProductTag model
-ProductTag.init(
+ProductTag.init(    // init method is used to define the ProductTag model class
   {
     // Define columns for the ProductTag model
     id: {
